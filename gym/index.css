@@ -212,7 +212,7 @@ body{
   margin:0rem 0rem 0rem 8rem;
   
   height:100vh;
-  width:100vw;
+
   background:/*linear-gradient(to top,rgba(34,34,41,1), rgba(34,32,41,8));*/url("https://i.postimg.cc/NjL44hWT/dumbbell-1966247-1920.jpg");
   background-size:cover;
 }
@@ -652,4 +652,139 @@ body{
 }
 /*end of footer*/
 
+@media(max-width:1400px){
+  .customers-cards-wrapper{
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  .customer-card:first-child{
+    margin-bottom:3rem;
+  }
+  .main-part{
+    flex-direction:column;
+  }
+  .footer-list{
+    display:flex;
+  }
+  .footer-list-item{
+    margin-right:3rem;
+  }
+}
+@media(max-width:1200px){
+  .aboutus{
+    flex-direction:column;
+    padding-bottom:18rem;
+  }
+  .aboutus-content{
+    margin-bottom:13rem;
+  }
+  .img{
+    width:15rem;
+    
+  }
+}
+
+@media(max-width:900px){
+  .banner{
+    text-align:center;
+  }
+  .banner-heading{
+    font-size:4.7rem;
+  }
+ .banner-paragraph{
+    font-size:2.6rem;
+  }
+  .banner-button{
+    width:16rem;
+    font-size:1.5rem;
+  }
+}
+
+@media(max-width:750px){
+  .customer-card{
+    flex-direction:column;
+    width:20rem;
+    height:40rem;
+  }
+  
+  .customer-image{
+    margin-left:0;
+  }
+  .footer-list{
+    display:block;
+  }
+  .maker{
+    flex-direction:column;
+    text-align:center;
+  }
+ .copyright-text{
+    order:1;
+  }
+}
+
+@media(max-width:500px){
+  .navigation{
+    width:28rem;
+  }
+ 
+  .search-input{
+    width:20rem;
+  }
+  .gym-heading{
+    font-size:2rem;
+    margin:auto 0;
+  }
+  .banner-heading{
+    font-size:2rem;
+  }
+  .header{
+    margin-left:8rem;
+  }
+  .banner{
+    height:100%;
+    margin-top:20rem;
+  }
+  .banner-paragraph{
+    font-size:2rem;
+  }
+  .aboutus{
+    padding-bottom:15rem;
+  }
+  .aboutus-heading{
+    font-size:2.5rem;
+    text-align:center;
+  }
+  .sub-heading{
+    font-size:2rem;
+    text-align:center;
+  }
+  .aboutus-content{
+    padding:5rem;
+  }
+  .img{
+    width:13rem;
+    height:13rem;
+  }
+  
+  .aboutus-heading{
+    font-size:2rem;
+  }
+  .small-underline{
+    width:3rem;
+  }
+  .big-underline{
+    width:5rem;
+  }
+  .customers-paragraph{
+    font-size:1.4rem;
+  }
+  .main-part{
+    padding:2rem;
+  }
+  .image-wrapper{
+    width:3rem;
+    
+  }
+}
 
